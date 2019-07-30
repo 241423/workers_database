@@ -1,6 +1,12 @@
 import class_person
 import termtables as tt
 
+import os
+
+def clear_screen():
+    print ("\n" * 100)
+
+
 def b_day_reedable(year, month, day):
     months={
         1:"Jan",
@@ -21,6 +27,7 @@ def b_day_reedable(year, month, day):
 
 
 def disp(Data_base):
+    clear_screen()
     table=[]
     for person in Data_base:
         p_table=[]
@@ -42,5 +49,7 @@ def disp(Data_base):
         # padding=(0, 1),
     )
     print(string)
+
+    input("Press Enter to continue...")
 
 

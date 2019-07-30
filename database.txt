@@ -1,2 +1,5 @@
 314,John,Smith,1980,10,10,Manager,80101011111
 593,Mark,Brown,1970,7,25,Boss,70072510101
+990,Mat,Jonson,1991,3,31,Worker,91033145645
+123,Anna,Smith,1985,3,14,Accountman,85031435635
+400,Michael,Bocian,1980,4,23,IT support,80032342856

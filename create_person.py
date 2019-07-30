@@ -7,6 +7,7 @@ def num_id():
     return id
 
 def create_person():
+    print("\n" * 100)
     id=num_id()
     first_name=check_person.f_name()
     surname=check_person.s_name()
@@ -16,6 +17,7 @@ def create_person():
     position=check_person.pos()
     pesel=check_person.pesel()
 
+    print("\n" * 100)
     print("Do you accept person data? Input Y")
     print("First name: ", first_name )
     print("Surname: ", surname)
@@ -28,6 +30,7 @@ def create_person():
     decision=input("Decision: ")
 
     if decision=="Y" or decision=="y":
+
         return class_person.Person(id, first_name, surname, year, month, day, position, pesel)
 
     else:
